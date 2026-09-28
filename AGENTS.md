@@ -108,16 +108,16 @@ A task is considered complete ONLY when:
 
 ### Phase 2: Project Setup & Core Implementation
 - [x] Task 2.1: Scaffold Next.js project with App Router, TS strict, Tailwind CSS, ESLint, Vitest, RTL.
-- [ ] Task 2.2: Define core domain types and Storage Adapter interface (`src/lib/types.ts`, `src/lib/storage.ts`).
-- [ ] Task 2.3: Implement pure `todoReducer` and comprehensive unit tests.
-- [ ] Task 2.4: Implement `useTodos` custom hook with SSR hydration safety & localStorage persistence.
-- [ ] Task 2.5: Build accessible, responsive UI components (`TodoInput`, `TodoList`, `TodoItem`, `TodoFilter`).
-- [ ] Task 2.6: Assemble `TodoApp` client root & layout server component with metadata.
+- [x] Task 2.2: Define core domain types and Storage Adapter interface (`src/lib/types.ts`, `src/lib/storage.ts`).
+- [x] Task 2.3: Implement pure `todoReducer` and comprehensive unit tests.
+- [x] Task 2.4: Implement `useTodos` custom hook with SSR hydration safety & localStorage persistence.
+- [x] Task 2.5: Build accessible, responsive UI components (`TodoInput`, `TodoList`, `TodoItem`, `TodoFilter`).
+- [x] Task 2.6: Assemble `TodoApp` client root & layout server component with metadata.
 
 ### Phase 3: Testing & Quality Gate
-- [ ] Task 3.1: Add full integration tests for UI flows (add, inline edit, toggle, delete, filter, keyboard navigation).
-- [ ] Task 3.2: Run complete quality gate (typecheck, lint, tests, build) and resolve warnings/gaps.
+- [x] Task 3.1: Add full integration tests for UI flows (add, inline edit, toggle, delete, filter, keyboard navigation).
+- [x] Task 3.2: Run complete quality gate (typecheck, lint, tests, build) and resolve warnings/gaps.
 
 ### Phase 4: Version Control & Deployment
-- [ ] Task 4.1: Git setup, clean commit history, and GitHub remote push.
-- [ ] Task 4.2: Deploy to Vercel and verify live production deployment URL.
+- [x] Task 4.1: Git setup, clean commit history, and GitHub remote push.
+- [x] Task 4.2: Deploy to Vercel and verify live production deployment URL.
